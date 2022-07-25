@@ -1,5 +1,6 @@
 const { app, BrowserWindow, ipcMain, nativeTheme } = require('electron')
 const path = require('path')
+const { electron } = require('process')
 
 function createWindow () {
   const win = new BrowserWindow({
